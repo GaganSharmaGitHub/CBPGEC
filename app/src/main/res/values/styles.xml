@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_light</item>
+        <item name="colorAccent">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="total.red.white" parent="android:Theme.Material.NoActionBar" >
+        <item name="android:colorPrimary">@android:color/holo_red_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_red_light</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">?android:attr/colorEdgeEffect</item>
+    </style>
+
+    <style name="red.white.holo" parent="android:Theme.Holo.Light" >
+        <item name="android:colorPrimary">@android:color/holo_red_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_red_light</item>
+        <item name="android:colorAccent">@android:color/holo_red_light</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/holo_red_light</item>
+    </style>
+
+</resources>
